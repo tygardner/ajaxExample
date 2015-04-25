@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Form Submission</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styleIMDB.css">
+</head>
+<body>
+  <div class="container">
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Movie Search
+        </div>
+        <div class="panel-body">
+          <form name="userForm" class="form">
+            <div class="form-group">
+              <label>Movie Title</label>
+              <input type="text" class="form-control" placeholder="Movie" id="name">
+            <!--   <label>User Job</label>
+              <input type="text" class="form-control" placeholder="job" id="job"> -->
+              <hr>
+              <button type="submit" class="btn btn-success btn-block" id="addMovie">Submit</button>
+              <button type="reset" class="btn btn-default btn-block">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+        <div class="col-md-12">
+          <div class="well">
+            Movie Result
+            <div id="recentUser">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div> <!-- closing tag --> 
+<script src="jquery.IMDB.js"></script>
+<script src="appIMDB.js"></script>
+</body>
+</html>
