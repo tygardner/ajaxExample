@@ -21,22 +21,22 @@ $(document).ready(function(){
 	          '</li>' +
 	          '<li>' +
 	            'Release Date: ' + res.Released +
-	          '</li>'
-	          // '<li>' +
-	          //   'Genre: ' + res.Genre +
-	          // '</li>'
+	          '</li>' +
+	          '<li>' +
+	            'Genre: ' + res.Genre +
+	          '</li>' +
 	          '<li>' +
 	            'Actors: ' + res.Actors +
-	          '</li>'
+	          '</li>' +
 	          '<li>' +
 	            'Awards: ' + res.Awards +
-	          '</li>'
+	          '</li>' +
 	          '<li>' +
 	            'Poster: ' + res.Poster +
-	          '</li>'
+	          '</li>' +
 	          '<li>' +
 	            'imdbRating: ' + res.imdbRating +
-	          '</li>'
+	          '</li>' +
 	          '<li>' +
 	            'Type: ' + res.Type +
 	          '</li>'
