@@ -11,34 +11,31 @@ $(document).ready(function(){
 	        console.log(res);
 	        $('#recentUser').html(
 	          '<li>' +
-	            'Movie Title: ' + res.Title +
+	            '<strong>Movie Title:</strong> ' + res.Title +
 	          '</li>' +
 	          '<li>' +
-	            'Year: ' + res.Year +
+	            '<strong>Year:</strong> ' + res.Year +
 	          '</li>' +
 	          '<li>' +
-	            'Rating: ' + res.Rated +
+	            '<strong>Rating:</strong> ' + res.Rated +
 	          '</li>' +
 	          '<li>' +
-	            'Release Date: ' + res.Released +
+	            '<strong>Release Date:</strong> ' + res.Released +
 	          '</li>' +
 	          '<li>' +
-	            'Genre: ' + res.Genre +
+	            '<strong>Genre:</strong> ' + res.Genre +
 	          '</li>' +
 	          '<li>' +
-	            'Actors: ' + res.Actors +
+	            '<strong>Actors:</strong> ' + res.Actors +
 	          '</li>' +
 	          '<li>' +
-	            'Awards: ' + res.Awards +
+	            '<strong>Awards:</strong> ' + res.Awards +
 	          '</li>' +
 	          '<li>' +
-	            'Poster: ' + res.Poster +
+	            '<strong>imdbRating:</strong> ' + res.imdbRating +
 	          '</li>' +
 	          '<li>' +
-	            'imdbRating: ' + res.imdbRating +
-	          '</li>' +
-	          '<li>' +
-	            'Type: ' + res.Type +
+	            '<strong>Type:</strong> ' + res.Type +
 	          '</li>'
 	        )
 	      })
